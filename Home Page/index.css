@@ -170,14 +170,22 @@ li:hover {
   align-items: center;
   gap: 20px;
 }
-.sign-up {
-  background-color: rgba(245, 245, 245, 0.705);
-  padding: 5px;
+button.sign-up {
+  /* background-color: #09B850; */
+  padding: 9.5px 12.8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #202124;
+  transition: all .5s;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 
-buttonc.sign-up:hover {
-  background-color: #f1f0f0;
+button.sign-up:hover {
+  background-color: #cbc4c4;
 }
 .theme:hover {
   cursor: pointer;
