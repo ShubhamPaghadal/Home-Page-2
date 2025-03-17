@@ -803,6 +803,12 @@ h3.price-heading {
   color: #ffffff;
 }
 
+.contact-design {
+  position: absolute;
+  margin: -345px 0 0 1029px;
+
+}
+
 button.contact-btn {
   font-size: 16px;
   margin:  0 0 6px;
