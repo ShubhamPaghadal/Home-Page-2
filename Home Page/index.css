@@ -182,6 +182,10 @@ buttonc.sign-up:hover {
 .theme:hover {
   cursor: pointer;
 }
+
+.theme {
+  cursor: pointer;
+}
 /* Header end */
 
 /*  Footer */
