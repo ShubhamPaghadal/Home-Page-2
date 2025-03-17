@@ -103,11 +103,11 @@ img {
 header {
   width: 100%;
   padding: 17px 0;
-  /* position: fixed;
+  position: fixed;
   width: 100%;
   z-index: 1;
   background-color: #ffffff;
-  top: 0; */
+  top: 0;
 }
 
 
@@ -347,7 +347,9 @@ a.country {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  padding: 103px 0;
+  padding: 160px 0;
+  
+  /* padding: 103px 0; */
 }
 
 .creative_studio_img .row > div {
