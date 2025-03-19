@@ -943,6 +943,7 @@ h6.count_comapany {
     justify-content: space-between;
     column-gap: 40px;
   }
+
   h6.count_comapany {
     font-size: 23px;
   }
@@ -953,14 +954,26 @@ h6.count_comapany {
   flex-direction: column;
   gap: 28px;
   }
-  header{
+
+  /* header{
     position: unset;
-  }
+  } */
   .header-list-1{
-    display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    background-color: #e8e8e8;
   }
+
   button.toggle-btn {
     display: block;
+}
+li.header-toggle {
+  border: 1px solid #dad7d7;
+  width: 100%;
+  margin-right: auto;
+  padding: 10px;
 }
 
 }

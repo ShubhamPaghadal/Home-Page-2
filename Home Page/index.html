@@ -27,11 +27,11 @@
           </a>
 
           <ul class="header-list-1">
-            <li>Demos <i class="fa-solid fa-angle-down"></i></li>
-            <li>Pages <i class="fa-solid fa-angle-down"></i></li>
-            <li>Portfolio <i class="fa-solid fa-angle-down"></i></li>
-            <li>Magamenu <i class="fa-solid fa-angle-down"></i></li>
-            <li>Contact us <i class="fa-solid fa-angle-down"></i></li>
+            <li class=" header-toggle">Demos <i class="fa-solid fa-angle-down "></i></li>
+            <li class=" header-toggle">Pages <i class="fa-solid fa-angle-down "></i></li>
+            <li class=" header-toggle">Portfolio <i class="fa-solid fa-angle-down "></i></li>
+            <li class=" header-toggle">Magamenu <i class="fa-solid fa-angle-down "></i></li>
+            <li class=" header-toggle">Contact us <i class="fa-solid fa-angle-down "></i></li>
           </ul>
           <div class="btn">
            
@@ -39,7 +39,7 @@
               <i class="fa-solid fa-user-tie "></i> Sign up</button
             >
             <button class="buy-btn">Buy now!</button>
-            <button class="toggle-btn"><i class="fas fa-bars"></i></button>
+            <button onclick="navigation()" class="toggle-btn"><i class="fas fa-bars"></i></button>
           </div>
         </div>
         <div class="header-design">
@@ -696,5 +696,20 @@
         </div>        
       </div>
     </footer>
+
+
+    <!-- Java Script -->
+     <script>
+      const navigation = () => {
+        let navbar = document.querySelector(".header-list-1")
+        navbar.classList.toggle('active')
+        if(navbar.style.display === 'block'){
+        navbar.style.display = 'none'
+        }else{
+          navbar.style.display= "block"
+        }
+      }
+      
+     </script>
   </body>
 </html>
