@@ -866,8 +866,26 @@ img.studio_main {
   .studio_tex{
     margin-top: 20px;
   }
+}
 
-  
+/* section:1 360px */
+@media (max-width: 360px){
+  .studio_text{
+    font-size: 36px !important
+  }
+  .start_btn{
+    margin-top: 18px;
+    width: 100%;
+  }
+  .input-field-digital-contact{
+    flex-direction: column;
+  }
+  .input_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* end  Section :- 1 *************************************************************/
 
@@ -1888,6 +1906,16 @@ section.digital-sec {
 h3.goals-text {
   font-size: 28px;
 }
+}
+
+/* section 7 360px */
+@media (max-width: 360px){
+  .digital-contact{
+    text-align: unset;
+  }
+  .contact-time{
+    font-size: 15px;
+  }
 }
 
 
